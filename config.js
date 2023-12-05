@@ -3,21 +3,21 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || "923184070915"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || "923429447356"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://salmanahmad:s4salmanyt@cluster0.szcj2eo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'xheikhsalman4422@gmail.com'
-global.github = 'https://github.com/salmanytofficial/XLICON-MD'
-global.location = 'Lahore Pak'
-global.gurl = 'https://instagram.com/itz_shaikho/' // add your username
-global.sudo = process.env.SUDO || '923184070915' 
-global.devs = '923184070915';
-global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3c341828d86ee7a89c73f.jpg'
+global.email = 'lukedament2094@gmail.com'
+global.github = 'https://github.com/LukeDament/XLICON-MD'
+global.location = 'Peshawar Pak'
+global.gurl = 'https://instagram.com/romantic__life__01/' // add your username
+global.sudo = process.env.SUDO || '923429447356' 
+global.devs = '923429447356';
+global.website = 'https://github.com/LukeDament/XLICON-MD' //wa.me/+91000000000000
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/g6QeMxB.mp4'
 module.exports = {
   sessionName:  process.env.SESSION_ID ||  " ",  //PUT Session Id Here, 
-  author:  process.env.PACK_AUTHER ||  '',
-  packname:  process.env.PACK_NAME || '',
+  author:  process.env.PACK_AUTHER ||  '@Mr_HiddenX',
+  packname:  process.env.PACK_NAME || '⁹²³⁴²⁹⁴⁴⁷³⁵⁶',
    
   botname:   process.env.BOT_NAME === undefined ? "Xlicon-Md" : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'salmanytofficial' : process.env.OWNER_NAME,  
