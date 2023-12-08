@@ -1,5 +1,5 @@
-build:
-  docker:
+build: Babu
+  docker: Zakhmi
       worker: /lib/Dockerfile
 run:
    worker: npm start
